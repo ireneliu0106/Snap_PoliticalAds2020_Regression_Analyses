@@ -8,7 +8,7 @@ How is the impression of the ads associated with the amount the advertiser spent
 The data was downloaded from [Snap Political Ads Library](https://www.snap.com/en-US/political-ads)
 The [dataset](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/PoliticalAds2020.xlsx) used in the analysis contains the information about all 12730 political ads on snapchat in 2020, including ad ID, ad URL, amount advertisers spend, impressions, start date, end date, gender, age bracket, etc. The complete list of column headers and the explanations can be found [here](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/PoliticalAds-data-explanations.txt).
 ## Data Analysis
-Here are the Excel file for data analysis and the [step-by-step descriptions of Excel data analysis](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/Step-by-step%20instructions%20of%20Excel%20data%20analysis)
+Here are the [Excel file for data analysis](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/PoliticalAds_Analysis.xlsx) and the [step-by-step descriptions of Excel data analysis](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/Step-by-step%20instructions%20of%20Excel%20data%20analysis)
 
 __How is number of impressions associated with spending?__
 
@@ -33,5 +33,3 @@ For our purposes, we will only look at how spending, days the ads are displayed,
 
 ## Business Answer
 Based on our analyses, there is an association between the impressions, amount spent over the campaign, days the ads are displayed, and whether or not the ads target both genders. In order to get more impressions on the ads in Snapchat, it is recommended that the advertisers invest more on the campaign, display the ads longer, and target both genders. The simple linear regression and multiple linear regression models provide fair predictions of the expected difference in impressions in correspondance with the change in the independent variables investigated. Advertisers can use these models to get a general idea of how many impressions they can get, which is quite useful. For future studies, one can look at if the impressions of ads on Snapchat has actual impacts on the voters' decisions and the election results. This can provide a more comprehensive view of whether displaying ads on Snapchat is worth it. 
-
-
