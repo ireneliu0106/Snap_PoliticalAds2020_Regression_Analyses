@@ -6,4 +6,6 @@ Snapchat allows advertisers to create [political and election-related ads](https
 How is the impression of the ads associated with the amount the advertiser spent over the campaign, the length of time the ads were displayed, and the targeted gender of the ads in the United States in 2020?
 ## Open Data
 The data was downloaded from [Snap Political Ads Library](https://www.snap.com/en-US/political-ads)
-1. This dataset contains the information about all 12730 political ads on snapchat in 2020, including ad ID, ad URL, amount advertisers spend, impressions, start date, end date, gender, age bracket, and so on. The complete list can be found here. 
+The [dataset](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/PoliticalAds2020.xlsx) used in the analysis contains the information about all 12730 political ads on snapchat in 2020, including ad ID, ad URL, amount advertisers spend, impressions, start date, end date, gender, age bracket, etc. The complete list and the explanations can be found [here](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/PoliticalAds-data-explanations.txt).
+## Data Analysis
+
