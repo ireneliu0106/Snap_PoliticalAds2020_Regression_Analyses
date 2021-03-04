@@ -1,0 +1,10 @@
+1. Go to Snap Political Ads Library (https://www.snap.com/en-US/political-ads) to download the dataset for 2020. Save the dataset as an excel workbook.
+2. Add filters on the column headers to only include data that has currency "USD" and non-blank end dates. Copy the data to a new worksheet "Cleaned Data". 
+3. In the Cleaned Data worksheet, copy impression, spend, start date, end date, and gender columns and paste them into a new worksheet "Regression Data".
+4. Highlight start date in the Regression Data worksheet, go to data -> text to columns -> delimited -> select space as delimiter to separate the date from time. Repeat this step for end date.
+5. Disregard time, only substract the date in end date by the date in start date in a new column called "Days".
+6. Go to the gender column and use an IF statement to denote both genders (represented by blank in the dataset) as 1 and single gender (female or male) as 0 in a new column "Both Genders?".
+7. In the Regression Data worksheet, perform multiple linear regression analysis by going to data -> data analysis -> regression -> put the impresion columns as input y range and spend, days, and both genders columns as input x range. Select the labels box and save the output in a new worksheet "Regression Results".
+8. Repeat the last step for only impression column as input y range and spend as input x range to perform simple linear regression analysis and save the output in a new worksheet "Regression Results-Spend".
+9. In Regression Analysis worksheet, insert a scatter plot for impression as y and spend as x. Add trendline and display R square value and equation on the graph.
+10. Go back to Regression Data worksheet and go to data -> data analysis -> correlation and put impression, spend, days, and both gender columns as input range. Select grouped by columns and labels in first row and save the daya in a new worksheet "Correlation".
