@@ -10,7 +10,7 @@ The [dataset](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_A
 ## Data Analysis
 Here are the [Excel file for data analysis](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/PoliticalAds_Analysis.xlsx) and the [step-by-step descriptions of Excel data analysis](https://github.com/ireneliu0106/Snap_PoliticalAds2020_Regression_Analyses/blob/main/Step-by-step%20instructions%20of%20Excel%20data%20analysis)
 
-__How is number of impressions associated with spending?__
+__How is number of impressions associated with spending in 2020?__
 
 <img width="914" alt="Screen Shot 2021-03-04 at 1 12 32 AM" src="https://user-images.githubusercontent.com/70459912/109919845-5c8b6300-7c87-11eb-8a9a-b130fb539afe.png">
 <img width="768" alt="Screen Shot 2021-03-04 at 1 13 44 AM" src="https://user-images.githubusercontent.com/70459912/109919849-5dbc9000-7c87-11eb-81cf-8c0140842836.png">
@@ -31,13 +31,20 @@ __What are the correlations of impressions, spending, days the ads are displayed
 
 For our purposes, we will only look at how spending, days the ads are displayed, and whether or not the ads target both genders are correlated with the impressions of the ads. As shown in the table, all three independent variables are positively correlated with the impressions, with the correlation between impressions and spending being the highest.
 
-__How is the number of impressions associated with spending?__
+__How is the number of impressions associated with spending in 2020?__
 
+<img width="1213" alt="Screen Shot 2021-04-14 at 2 11 17 PM" src="https://user-images.githubusercontent.com/70459912/114758764-56c77980-9d2b-11eb-9af9-f8f44d2ced43.png">
 
+This plot was generated with plotly express in Python. The result obtained was similar to excel, with the simple linear regression model of Impressions = -89683.9 + 321.452*(SpendingInUSD).  It means that a dollar difference in spending over the political campaign is associated with 321.452 difference in number of views by Snapchat users. Also, the R-squared value was 0.601, meaning that 60.1% of the data falls on the prediction line. Although the slopes and the intercepts were a little different from the excel model, both models show a positive correlation between spending and numbers of impressions. The interactive html file can be accessed from [here].
 
-__What is the trend of total number of impressions from 2018 to 2021?__
+__What is the trend of total number of impressions from 2018 to 2020?__
+
+<img width="1206" alt="Screen Shot 2021-04-14 at 2 25 37 PM" src="https://user-images.githubusercontent.com/70459912/114760429-4adcb700-9d2d-11eb-865b-7ff5c3374b48.png">
+
+As shown in the plot generated from plotly express, there is a significant increase in the total number of Snapchat ad impressions from 2018 to 2020. This means that more political ads are viewed by Snapchat users over the years and Snapchat has become a commonly used platform for political advertisement. 
 
 ## Comparison of Python and Excel Analysis
+The plots generated with python and excel give similar results. However, the interactive component of the python plot enable the viewers to directly see the predicted number of impressions by spending without calculating it manually. The python plot also displays the values on each dot, so the viewers do not have to estimate them from the axis. Although the results generated from both python and excel are te same, the interactive component of python plots make it easier for the viewers to understand the details of the analysis. 
 
 ## Business Answer
-Based on our analyses, there is an association between the impressions, amount spent over the campaign, days the ads are displayed, and whether or not the ads target both genders. In order to get more impressions on the ads in Snapchat, it is recommended that the advertisers invest more on the campaign, display the ads longer, and target both genders. The simple linear regression and multiple linear regression models provide fair predictions of the expected difference in impressions in correspondance with the change in the independent variables investigated. Advertisers can use these models to get a general idea of how many impressions they can get, which is quite useful. For future studies, one can look at if the impressions of ads on Snapchat has actual impacts on the voters' decisions and the election results. This can provide a more comprehensive view of whether displaying ads on Snapchat is worth it. 
+Based on our analyses, there is an association between the impressions, amount spent over the campaign, days the ads are displayed, and whether or not the ads target both genders. In order to get more impressions on the ads in Snapchat, it is recommended that the advertisers invest more on the campaign, display the ads longer, and target both genders. The simple linear regression and multiple linear regression models provide fair predictions of the expected difference in impressions in correspondance with the change in the independent variables investigated. In addition, there is a clear trend that the total number of impression are increasing since 2018. This implies that Snapchat has become a common platform for political ads and more Snapchat users are exposed to political ads through Snapchat. Advertisers can take such trend into consideration and use the regression models to get a general idea of how many impressions they can get based on their investments and the design of the ads. For future studies, one can look at how the impressions of ads on Snapchat impacted the voters' decisions and the election results. This can provide a more comprehensive view of whether displaying ads on Snapchat will postively influence the political campaign.
