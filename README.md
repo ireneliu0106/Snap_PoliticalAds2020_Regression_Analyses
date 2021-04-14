@@ -31,5 +31,13 @@ __What are the correlations of impressions, spending, days the ads are displayed
 
 For our purposes, we will only look at how spending, days the ads are displayed, and whether or not the ads target both genders are correlated with the impressions of the ads. As shown in the table, all three independent variables are positively correlated with the impressions, with the correlation between impressions and spending being the highest.
 
+__How is the number of impressions associated with spending?__
+
+
+
+__What is the trend of total number of impressions from 2018 to 2021?__
+
+## Comparison of Python and Excel Analysis
+
 ## Business Answer
 Based on our analyses, there is an association between the impressions, amount spent over the campaign, days the ads are displayed, and whether or not the ads target both genders. In order to get more impressions on the ads in Snapchat, it is recommended that the advertisers invest more on the campaign, display the ads longer, and target both genders. The simple linear regression and multiple linear regression models provide fair predictions of the expected difference in impressions in correspondance with the change in the independent variables investigated. Advertisers can use these models to get a general idea of how many impressions they can get, which is quite useful. For future studies, one can look at if the impressions of ads on Snapchat has actual impacts on the voters' decisions and the election results. This can provide a more comprehensive view of whether displaying ads on Snapchat is worth it. 
